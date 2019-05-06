@@ -10553,7 +10553,7 @@ start input. Must set MCU GPIO to input as above.</text>
 <junction x="213.36" y="71.12"/>
 <wire x1="213.36" y1="71.12" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
-<label x="220.98" y="43.18" size="1.778" layer="95" xref="yes"/>
+<label x="213.36" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CN2" gate="A" pin="2"/>
@@ -11409,10 +11409,10 @@ start input. Must set MCU GPIO to input as above.</text>
 <approved hash="209,1,208.28,175.26,N$19,,,,,"/>
 <approved hash="106,1,208.28,175.26,N$19,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="113,1,350.732,146.5,CN2,,,,,"/>
+<approved hash="113,1,350.732,146.53,CN2,,,,,"/>
 <approved hash="113,2,194.206,131.976,FRAME2,,,,,"/>
 <approved hash="113,2,54.61,181.61,CN1,,,,,"/>
-<approved hash="113,2,230.944,185.657,CN3,,,,,"/>
+<approved hash="113,2,230.914,185.657,CN3,,,,,"/>
 <approved hash="113,2,84.1417,46.99,D3,,,,,"/>
 <approved hash="113,2,84.1417,97.79,D2,,,,,"/>
 <approved hash="113,2,173.042,138.43,D1,,,,,"/>

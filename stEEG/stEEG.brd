@@ -3,13 +3,13 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,15 +22,15 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -219,6 +219,50 @@
 <hole x="2.75" y="1.75" drill="3.1"/>
 <hole x="47.25" y="1.75" drill="3.1"/>
 <hole x="47.25" y="26.25" drill="3.1"/>
+<text x="8.25" y="8" size="0.75" layer="22" rot="MR180">V+</text>
+<text x="8.25" y="10.5" size="0.75" layer="22" rot="MR180">RX</text>
+<text x="8.25" y="13" size="0.75" layer="22" rot="MR180">TX</text>
+<text x="8.25" y="15.75" size="0.75" layer="22" rot="MR180">CLK</text>
+<text x="8.25" y="18.25" size="0.75" layer="22" rot="MR180">CS</text>
+<text x="8.25" y="20.75" size="0.75" layer="22" rot="MR180">ST</text>
+<text x="3.25" y="7.25" size="0.75" layer="22" rot="MR0">GND</text>
+<text x="3.25" y="9.75" size="0.75" layer="22" rot="MR0">GND</text>
+<text x="3.25" y="12.5" size="0.75" layer="22" rot="MR0">GND</text>
+<text x="3.25" y="15" size="0.75" layer="22" rot="MR0">GND</text>
+<text x="3.25" y="17.5" size="0.75" layer="22" rot="MR0">B0</text>
+<text x="3.25" y="20" size="0.75" layer="22" rot="MR0">CK</text>
+<text x="42" y="20" size="0.75" layer="22" rot="MR0">REF</text>
+<text x="42" y="17.5" size="0.75" layer="22" rot="MR0">CH1</text>
+<text x="42" y="15" size="0.75" layer="22" rot="MR0">CH3</text>
+<text x="42" y="12.25" size="0.75" layer="22" rot="MR0">CH5</text>
+<text x="42" y="9.75" size="0.75" layer="22" rot="MR0">CH7</text>
+<text x="42" y="7.25" size="0.75" layer="22" rot="MR0">BIAS</text>
+<text x="46.75" y="8" size="0.75" layer="22" rot="MR180">GND</text>
+<text x="46.75" y="10.5" size="0.75" layer="22" rot="MR180">CH8</text>
+<text x="46.75" y="13" size="0.75" layer="22" rot="MR180">CH6</text>
+<text x="46.75" y="15.5" size="0.75" layer="22" rot="MR180">CH4</text>
+<text x="46.75" y="18" size="0.75" layer="22" rot="MR180">CH2</text>
+<text x="46.75" y="20.75" size="0.75" layer="22" rot="MR180">GND</text>
+<wire x1="49.5" y1="21.5" x2="39.5" y2="21.5" width="0.15" layer="22"/>
+<wire x1="39.5" y1="21.5" x2="39.5" y2="6.5" width="0.15" layer="22"/>
+<wire x1="39.5" y1="6.5" x2="49.5" y2="6.5" width="0.15" layer="22"/>
+<wire x1="49.5" y1="6.5" x2="49.5" y2="21.5" width="0.15" layer="22"/>
+<wire x1="0.5" y1="6.5" x2="10.5" y2="6.5" width="0.15" layer="22"/>
+<wire x1="0.5" y1="6.5" x2="0.5" y2="21.5" width="0.15" layer="22"/>
+<wire x1="0.5" y1="21.5" x2="7.5" y2="21.5" width="0.15" layer="22"/>
+<wire x1="7.5" y1="21.5" x2="10.5" y2="21.5" width="0.15" layer="22"/>
+<wire x1="10.5" y1="21.5" x2="10.5" y2="20" width="0.15" layer="22"/>
+<text x="9.75" y="24.25" size="0.75" layer="22" rot="MR270">VDD</text>
+<text x="12.25" y="24.25" size="0.75" layer="22" rot="MR270">SWCLK</text>
+<text x="15" y="24.25" size="0.75" layer="22" rot="MR270">GND</text>
+<text x="17.5" y="24.25" size="0.75" layer="22" rot="MR270">SWDIO</text>
+<text x="20" y="24.25" size="0.75" layer="22" rot="MR270">NRST</text>
+<text x="22.5" y="24.25" size="0.75" layer="22" rot="MR270">SWO</text>
+<wire x1="10.5" y1="20" x2="10.5" y2="6.5" width="0.15" layer="22"/>
+<wire x1="7.5" y1="28.5" x2="24" y2="28.5" width="0.15" layer="22"/>
+<wire x1="24" y1="28.5" x2="24" y2="20" width="0.15" layer="22"/>
+<wire x1="7.5" y1="21.5" x2="7.5" y2="28.5" width="0.15" layer="22"/>
+<wire x1="10.5" y1="20" x2="24" y2="20" width="0.15" layer="22"/>
 </plain>
 <libraries>
 <library name="ADS129x">
@@ -1290,7 +1334,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="12.619" y="17.492" size="0.0254" layer="27"/>
 </element>
 <element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R" x="18.5" y="18.5" smashed="yes">
-<attribute name="NAME" x="17.9999" y="19.0499" size="1.27" layer="25"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="18.5" y="18.5" size="0.75" layer="27" display="off"/>
 <attribute name="VALUE" x="18.119" y="17.992" size="0.0254" layer="27"/>
 </element>
@@ -1307,7 +1350,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="18.119" y="11.242" size="0.0254" layer="27"/>
 </element>
 <element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R" x="23" y="20" smashed="yes">
-<attribute name="NAME" x="22.4999" y="20.5499" size="1.27" layer="25"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="23" y="20" size="0.75" layer="27" display="off"/>
 <attribute name="VALUE" x="22.619" y="19.492" size="0.0254" layer="27"/>
 </element>
